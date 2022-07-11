@@ -16,7 +16,7 @@ impl Password {
                     Ok(Self(None))
                 }
             }
-            None => Ok(Self(None))
+            None => Ok(Self(None)),
         }
     }
 
