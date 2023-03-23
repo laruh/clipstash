@@ -1,6 +1,6 @@
 pub mod field;
 
-use serde::{Deserialize, Serialize};
+use serde_derive::{Deserialize, Serialize};
 use thiserror::Error;
 
 #[derive(Debug, Error)]

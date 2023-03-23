@@ -1,5 +1,5 @@
 use super::super::ClipError;
-use serde::{Deserialize, Serialize};
+use serde_derive::{Deserialize, Serialize};
 
 #[derive(Debug, Clone, Deserialize, Serialize)]
 pub struct Content(String);

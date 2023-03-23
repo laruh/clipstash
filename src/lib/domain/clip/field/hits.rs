@@ -1,8 +1,7 @@
 use derive_more::Constructor;
-use serde::{Deserialize, Serialize};
 use serde_derive::{Deserialize, Serialize};
 
-#[derive(Debug, Clone, Deserialize, Serialize, Constructor)]
+#[derive(Clone, Debug, Deserialize, Serialize, Constructor)]
 pub struct Hits(u64);
 
 impl Hits {
